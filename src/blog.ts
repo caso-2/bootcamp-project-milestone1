@@ -29,6 +29,7 @@ const blogs: Blog[] = [
 ]
 
 const blogContainer = document.getElementById('blog-container');
+// Only list blogs if container exists
 if (blogContainer !== null){
     blogs.forEach((blog) => {
 
